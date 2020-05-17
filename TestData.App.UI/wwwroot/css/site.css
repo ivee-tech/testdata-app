@@ -1,0 +1,148 @@
+﻿.app-body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    /*background-color: #2d323b;
+    color: #fff;*/
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+.vcenter {
+    min-height: 12em;
+    vertical-align: middle;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.round {
+    border-radius: 4px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 960px;
+}
+
+.brand-logo {
+    font-size: 24px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+    .nav > li {
+        position: relative;
+        display: inline-block;
+    }
+
+        .nav > li > a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+        }
+
+            .nav > li > a:hover,
+            .nav > li > a:focus {
+                text-decoration: none;
+                background-color: #eee;
+            }
+
+        .nav > li.disabled > a {
+            color: #777;
+        }
+
+            .nav > li.disabled > a:hover,
+            .nav > li.disabled > a:focus {
+                color: #777;
+                text-decoration: none;
+                cursor: not-allowed;
+                background-color: transparent;
+            }
+
+    .nav .open > a,
+    .nav .open > a:hover,
+    .nav .open > a:focus {
+        background-color: #eee;
+        border-color: #337ab7;
+    }
+
+    .nav .nav-divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #e5e5e5;
+    }
+
+    .nav > li > a > img {
+        max-width: none;
+    }
+
+.nav-right {
+    float: right;
+}
+
+.nav-wrapper {
+
+}
+
+.nav-wrapper > ul {
+    display: inline-block;
+}
+
+.img-panel {
+    margin-top: 100px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}

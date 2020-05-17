@@ -1,0 +1,66 @@
+{
+  "name": "testdata-app-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@babel/plugin-transform-flow-strip-types": "^7.8.3",
+    "@babel/plugin-transform-for-of": "^7.8.3",
+    "@babel/plugin-transform-typeof-symbol": "^7.8.3",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.5",
+    "cross-env": "^5.2.1",
+    "cytoscape": "^3.5.5",
+    "cytoscape-edgehandles": "^3.6.0",
+    "inversify": "^5.0.1",
+    "lodash": "^4.17.15",
+    "mathjs": "^6.6.1",
+    "office-ui-fabric-react": "^7.100.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dat-gui": "^3.0.0",
+    "react-dom": "^16.13.0",
+    "react-error-boundary": "^1.2.5",
+    "react-notifications-component": "^1.1.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.4.5",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_STAGE=dev PORT=3100 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "cross-env REACT_APP_STAGE=dev npm run build",
+    "predeploy:local": "cross-env REACT_APP_STAGE=local npm run build",
+    "predeploy:prod": "cross-env REACT_APP_STAGE=prod npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "http://localhost:44471/app",
+  "devDependencies": {
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "customersBaseUrl": "https://localhost:5001/api/",
+    "homeUrl": "https://localhost:5001/",
+    "aboutUrl": "https://localhost:5001/Home/About"
+}

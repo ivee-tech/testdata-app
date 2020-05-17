@@ -1,0 +1,218 @@
+.App {
+  /*text-align: center;*/
+}
+
+.container {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-layout {
+  border-bottom: 1px dashed blue;
+  padding: 20px;
+}
+
+.app-features {
+  margin-top: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ms-Table-row{font-family:'Segoe UI Semilight WestEuropean','Segoe UI Semilight','Segoe WP Semilight','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif}.ms-SearchBox.is-disabled .ms-SearchBox-label{color:#a6a6a6}.ms-SearchBox.is-disabled .ms-SearchBox-icon{color:#c8c8c8}.ms-SearchBox.is-disabled .ms-SearchBox-field{background-color:#f4f4f4;border-color:#f4f4f4;pointer-events:none;cursor:default}.ms-SearchBox.is-active .ms-SearchBox-closeButton{display:block;outline:transparent solid 1px}.ms-SearchBox-field{margin:0;border:1px solid #71afe5;border-radius:0;color:#000;height:32px;padding:6px 3px 7px 10px;width:180px}.ms-SearchBox-field:focus,.ms-SearchBox-field:hover{border-color:#0078d7;background-color:#c7e0f4}.ms-SearchBox-field:hover+.ms-SearchBox-label{color:#000}.ms-SearchBox-field:hover+.ms-SearchBox-label .ms-Icon{color:#333}.ms-SearchBox-field:focus{padding:6px 32px 7px 10px}.ms-SearchBox-closeButton{border:none;cursor:pointer;position:absolute;right:0;top:0;height:32px;width:32px;background-color:#0078d7;text-align:center;display:none;font-size:17px;color:#fff}.ms-SearchBox-label{position:absolute;top:0;padding-left:8px;line-height:32px;color:#666}.ms-SearchBox-icon{margin-right:7px;font-size:17px;color:#767676}.ms-Spinner{position:relative;width:64px;height:64px}.ms-Spinner-circle{position:absolute;border-radius:999px;background-color:#000;opacity:0}
+.ms-Table{display:table;width:100%}
+.ms-Table-row{display:table-row;height:30px;line-height:30px;font-size:12px;color:#333}
+.ms-Table-row.is-selected .ms-Table-rowCheck:after,.ms-Table-row:first-child .ms-Table-rowCheck:after{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;line-height:1;speak:none;content:'\e041';position:absolute;left:4px;top:9px;font-weight:400}
+.ms-Table-row:hover{background-color:#f4f4f4;cursor:pointer;outline:transparent solid 1px}
+.ms-Table-row.is-selected{background-color:#c7e0f4}
+.ms-Table-row.is-selected .ms-Table-rowCheck{background-color:#0078d7}
+.ms-Table-row.is-selected .ms-Table-rowCheck:before{display:none}
+.ms-Table-row.is-selected .ms-Table-rowCheck:after{display:inline-block;font-family:'Office365Icons';color:#fff;font-size:12px}
+.ms-Table-cell{display:table-cell;padding:0 10px}
+.ms-Table-row:first-child{font-family:'Segoe UI Semilight WestEuropean','Segoe UI Semilight','Segoe WP Semilight','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;font-size:11px;color:#666}
+.ms-Table-row:first-child .ms-Table-cell,.ms-Table-row:first-child .ms-Table-rowCheck{border-bottom:1px solid #eaeaea}
+.ms-Table-row:first-child .ms-Table-rowCheck:after{display:inline-block;font-family:'Office365Icons';color:#a6a6a6;font-size:12px}
+.ms-Table-rowCheck{display:table-cell;width:20px;position:relative}
+.ms-Table-rowCheck:before{border:1px solid #a6a6a6;content:'';display:block;height:14px;left:2px;position:absolute;top:6px;width:14px}
+@media screen and (-ms-high-contrast:active){
+    .ms-Table-row.is-selected .ms-Table-rowCheck{background:0 0}
+    .ms-Table-row.is-selected .ms-Table-rowCheck:before{display:block}}.ms-TextField{color:#333;font-family:'Segoe UI Regular WestEuropean','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;font-size:14px;font-weight:400;box-sizing:border-box;margin:0 0 8px;padding:0;box-shadow:none
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+
+.iv-toolbar {
+  z-index: 1001;
+}
+
+.iv-toolbar > ul {
+  padding-left: 0;
+}
+
+.iv-toolbar > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.iv-link-list {
+  width: auto;
+}
+
+.ms-root-autogen {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.iv-link-list .ms-root-autogen-smallnumber {
+  width: 75px;
+}
+
+.iv-link-list .iv-root-date {
+  width: 200px;
+}
+
+.ms-wrapper-autogen {
+
+}
+
+.ms-fieldGroup-autogen {
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  cursor: text;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(138, 136, 134);
+  border-image: initial;
+  border-radius: 2px;
+  background: rgb(255, 255, 255);
+}
+
+.ms-field-autogen {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  color: rgb(50, 49, 48);
+  width: 100%;
+  min-width: 0px;
+  text-overflow: ellipsis;
+  border-radius: 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  background: none transparent;
+  outline: 0px;
+}
+
+.ms-root-label-autogen {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  box-sizing: border-box;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: block;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  overflow-wrap: break-word;
+}
+
+.ms-Pagination-pageNumber {
+  top: -5px;
+}
+
+.ms-SearchBox-field {
+  border: 0;
+}
+.ms-SearchBox-field:focus, .ms-SearchBox-field:hover {
+  background-color: inherit;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

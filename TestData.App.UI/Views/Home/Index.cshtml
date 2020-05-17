@@ -1,0 +1,23 @@
+﻿@using  Microsoft.AspNetCore.Html
+@using  TestData.App.UI.TestData.Models
+
+<h2>@AppSettings.Title</h2>
+
+<div class="vcenter">
+    <div>
+        @(new HtmlString(AppSettings.Description))
+    </div>
+    <div class="img-panel">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Home" asp-action="App">
+                <img src="~/images/app001.jpg" alt="Application" class="center round" />
+            </a>
+
+        }
+        else
+        {
+            <img src="~/images/app001.jpg" alt="Application" class="center round" />
+        }
+    </div>
+</div>
