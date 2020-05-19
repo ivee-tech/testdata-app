@@ -27,7 +27,7 @@ console.log(formId);
 
 let filePath = '';
 if (process.env.REACT_APP_STAGE === 'dev') {
-    filePath = 'assets/config.dev.json';
+    filePath = 'app/assets/config.dev.json';
 }
 else if (process.env.REACT_APP_STAGE === 'local') {
     filePath = 'app/assets/config.local.json';
